@@ -2,9 +2,9 @@ import { TablaEsclavos } from "../models/empleado.models.js";
 
 TablaEsclavos.create({
     No:22277272,
-    nombre: "Karla",
-    sueldo: 10000000,
-    Empleado: "Ingeniero",
+    si: "Karla",
+    do: 10000000,
+    ci: "Ingeniero",
 })
 
 TablaEsclavos.create({

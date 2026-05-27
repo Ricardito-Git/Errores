@@ -1,4 +1,4 @@
-import { TablaAlumnos } from "../models/alumnos.models.js";
+import { TablaAlumnos } from "../models/alumnos.models";
 
 TablaAlumnos.create({
 

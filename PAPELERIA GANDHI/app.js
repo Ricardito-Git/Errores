@@ -7,8 +7,8 @@ import { test } from "./backend/controllers/producto.controllers.js";
 
 
 dotenv.config();
-mongoose.set('strictQuery', true);
-mongoose.connect(process.env.url_bd)
+mongo.set('strictQuery', true);
+mongoo.connect(process.env.url_bd)
 
 .then(() => console.log("Funciono la base de datos ")
 )
